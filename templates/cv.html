@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="keywords" content="olakanmi, oluwole, israel, olakanmi oluwole, olakanmi israel, israel oluwole">
+    <meta name="description" content="A good programmer with a sense of humor so top notch, you'll think i'm stupid.">
+    <meta name="author" content="Olakanmi Oluwole Israel">
+    
+    <title>Olakanmi I. Oluwole - Resume</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/font-awesome.min.css') }}">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    
+	<script src="{{url_for('static', filename='js/jquery.min.js') }}" type="text/javascript"></script>
+	<script src="{{url_for('static', filename='js/smoothscroll.js') }}" type="text/javascript"></script>
+	<script src="{{url_for('static', filename='js/Chart.js') }}" type="text/javascript"></script>
+	
+	
+  </head>
+
+  <body data-spy="scroll" data-offset="0" data-target="#nav">
+
+	<div id="section-topbar">
+		<div id="topbar-inner">
+			<div class="container">
+				<div class="row">
+					<div class="dropdown">
+						<ul id="nav" class="nav">
+							<li class="menu-item"><a class="smoothScroll" href="#about" title="About"><i class="icon-user"></i></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="#resume" title="Resume"><i class="icon-file"></i></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="#skills" title="Skills"><i class="icon-briefcase"></i></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="#contact" title="Contact"><i class="icon-envelope"></i></a></li>
+						</ul>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+	
+	<div id="headerwrap">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-12">
+					<h1>Olakanmi I. Oluwole</h1>
+					<h3>I build stuffs with technology | israelolakanmi@yahoo.com</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<section id="about" name="about"></section>
+	<div id="intro">
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>ABOUT ME</h5> 
+				</div>
+				<div class="col-lg-6">
+					<p>I make cool stuffs on the web, mobile for different platforms in a variety of languages and frameworks.</p>
+					<p><a href="{{ url_for('static', filename='files/olakanmi-oluwole-cv.pdf') }}"><i class="icon-file"></i><sm> DOWNLOAD Curriculum Vitae in PDF </sm></a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<section id="resume" name="resume"></section>
+	<!--EDUCATION DESCRIPTION -->
+	<div class="container desc">
+		<div class="row">
+
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>EDUCATION</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>Computer Science</t><br/>
+						<a href="http://www.run.edu.ng">Redeemers University <br/></a>
+						<i>4 Years Course</i>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>GRADUATING IN 2017</sm><br/>
+					<imp><sm>IN PROGRESS</sm></imp>
+					</p>
+				</div>
+	
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>Certified Secure Computer User</t><br/>
+						EC-Council <br/>
+						<i>A+</i>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>JUNE 2014</sm></p>
+				</div>
+	
+		</div>
+		<br>
+		<hr>
+	</div>
+	
+	<!--WORK DESCRIPTION -->
+	<div class="container desc">
+		<div class="row">
+
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>WORK</h5>
+				</div>
+				
+				<div class="col-lg-6">
+					<p><t>Application Support - Intern</t><br>
+						<a href="http://www.aiicoplc.com.">AIICO Insurance American International Plc.</a> <br>
+					</p>
+					<p><more></more></p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>JANUARY 2016 - PRESENT</sm></p>
+				</div>
+
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>Cloud Developer - Intern</t><br>
+						<a href="http://www.taja.com.ng">Taja, Linfix Solutions Ltd.</a> <br>
+					</p>
+					<p><more></more></p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>AUGUST 2014 - JANUARY 2015</sm></p>
+				</div>			
+			</div>
+		  <br>
+		<hr>
+	</div>
+
+
+	<!--SKILLS DESCRIPTION -->
+	<div id="skillswrap" name="skills">
+		<div class="container">
+			<div class="row">
+					<div class="col-lg-2 col-lg-offset-1">
+						<h5>SKILLS <p>View more in <a href="#about">the pdf above</a></p></h5>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="linux" height="130" width="130"></canvas>
+						<p>Linux</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 35,
+										color:"#1abc9c"
+									},
+									{
+										value : 65,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("linux").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="bootstrap" height="130" width="130"></canvas>
+						<p>HTML - CSS - Javascript - JQuery - Bootstrap</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 40,
+										color:"#1abc9c"
+									},
+									{
+										value : 60,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="python" height="130" width="130"></canvas>
+						<p>Python + Flask</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 30,
+										color:"#1abc9c"
+									},
+									{
+										value : 70,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("python").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					
+					<div class="col-lg-3 col-lg-offset-3 centered">
+						<canvas id="meanstack" height="130" width="130"></canvas>
+						<p>MEAN Stack</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 70,
+										color:"#1abc9c"
+									},
+									{
+										value : 30,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("meanstack").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="dbms" height="130" width="130"></canvas>
+						<p>Databases (NoSQL & RDBMS)</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 45,
+										color:"#1abc9c"
+									},
+									{
+										value : 55,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("dbms").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+
+					<div class="col-lg-3 centered">
+						<canvas id="android" height="130" width="130"></canvas>
+						<p>Ionic - Cordova</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 75,
+										color:"#1abc9c"
+									},
+									{
+										value : 25,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("android").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+			</div>
+			<br>
+		</div>
+	</div>
+
+	<!--FOOTER DESCRIPTION -->
+	<div id="footwrap" name="contact">
+		<div class="container">
+			<div class="row">
+			
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>CONTACT</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>Email</t><br/>
+						israelolakanmi@yahoo.com <br/>
+					</p>
+					<p><t>Address</t><br/>
+						Olakanmi's Compound,
+						Beside The Baptist Church, <br/>
+						Off Olayinka Oyeleye Crescent,
+						MTN Bus Stop, Ofada <br/>
+						Ogun State, Nigeria.<br/>
+					</p>
+					<p><t>Phone</t><br/>
+						+2348130064508<br/>
+						+2348084218129<br/>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>SOCIAL LINKS</sm></p>
+					<p>
+					  <a href="https://goo.gl/E75PpG"><i class="icon-twitter"></i></a>
+					  <a href="https://goo.gl/L5mjOh"><i class="icon-linkedin"></i></a>
+					  <a href="https://goo.gl/GyCo4d"><i class="icon-github"></i></a>
+					  <a href="https://goo.gl/iAVU33"><i class="icon-bitbucket"></i></a>
+					  <a href="https://goo.gl/YuyX8Q"><i class="icon-google-plus"></i></a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="c">
+		<div class="container">
+			<p>With love, <a href="#">Olakanmi I. Oluwole</a></p>
+		
+		</div>
+	</div>
+	
+    
+	<script src="{{url_for('static', filename='js/bootstrap.js') }}" type="text/javascript"></script>
+  </body>
+</html>
