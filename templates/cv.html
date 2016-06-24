@@ -166,7 +166,7 @@
 					</div>
 					<div class="col-lg-3 centered">
 						<canvas id="bootstrap" height="130" width="130"></canvas>
-						<p>HTML - CSS - Javascript - JQuery - Bootstrap</p>
+						<p>HTML + Bootstrap CSS + Javascript</p>
 						<br>
 						<script>
 							var doughnutData = [
@@ -256,6 +256,44 @@
 								var myDoughnut = new Chart(document.getElementById("android").getContext("2d")).Doughnut(doughnutData);
 						</script>
 					</div>
+
+                                        <div class="col-lg-3 centered">
+                                                <canvas id="pentest" height="130" width="130"></canvas>
+                                                <p>Penetration Testing</p>
+                                                <br>
+                                                <script>
+                                                        var doughnutData = [
+                                                                        {
+                                                                                value: 45,
+                                                                                color:"#1abc9c"
+                                                                        },
+                                                                        {
+                                                                                value : 55,
+                                                                                color : "#ecf0f1"
+                                                                        }
+                                                                ];
+                                                                var myDoughnut = new Chart(document.getElementById("pentest").getContext("2d")).Doughnut(doughnutData);
+                                                </script>
+                                        </div>
+
+                                        <div class="col-lg-3 centered">
+                                                <canvas id="awesomeness" height="130" width="130"></canvas>
+                                                <p>Awesomeness</p>
+                                                <br>
+                                                <script>
+                                                        var doughnutData = [
+                                                                        {
+                                                                                value: 100,
+                                                                                color:"#1abc9c"
+                                                                        },
+                                                                        {
+                                                                                value : 0,
+                                                                                color : "#ecf0f1"
+                                                                        }
+                                                                ];
+                                                                var myDoughnut = new Chart(document.getElementById("awesomeness").getContext("2d")).Doughnut(doughnutData);
+                                                </script>
+                                        </div>
 			</div>
 			<br>
 		</div>
